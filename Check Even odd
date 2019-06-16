@@ -1,0 +1,17 @@
+def ChkNum(ivalue):
+
+	if(ivalue==0):
+		print("wrong input")
+		return 
+	if((ivalue%2)==0):
+		print("Even Number")
+	else:
+		print("Odd Number")
+def main():
+	print("Enter the number")
+	no=int(input())
+	ChkNum(no)
+
+if __name__ == '__main__':
+	main()
+
